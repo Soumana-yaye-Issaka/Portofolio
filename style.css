@@ -1,0 +1,548 @@
+
+body{
+     background-color: #1A223F;
+}
+
+header{
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1A223F;
+    color: white;
+    position:  sticky;
+    top: 0;
+    padding-inline: 100px; 
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav a:first-child{
+    color: #F6A21A;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: #F6A21A;
+}
+.Burger{
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+.Burger img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(0) invert(1);
+}
+main{
+    width: 100%;
+}
+h1{
+    margin: 0;
+}
+/* -----Champ 1 CSS----- */
+
+.Champ1{
+   display: flex;
+   background-color: #1A223F;
+   color: white;
+   padding: 100px;
+}
+.Icone {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.Icone a{
+    color:#F6A21A;;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.Icone div{
+    border:#F6A21A solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.Sect1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 10px;
+}
+
+.Sect1 button{
+    background-color: #F6A21A;
+    padding: 8px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 3px rgba(255,134,50,0.42);
+}
+.Sect2_moi{
+    border: solid white 20px;
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    justify-items: center;
+    animation: flotter 2s ease-in-out infinite alternate;
+}
+
+.Sect2_moi:hover {
+  animation: flotter 4s ease-in-out infinite alternate;
+}
+
+@keyframes flotter {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(15px); /* descend de 15px */
+  }
+}
+.Sect2_moi img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* -----Champ 2 CSS----- */
+
+.Champ2{
+    background-color: #2B3049;
+    display: flex;
+    padding: 100px;
+    gap: 50px;
+    color: white;
+}
+
+.Sect3 article{
+    border: solid white 20px;
+    background-color: white;
+    width: 300px;
+    height:300px;
+    border-top-right-radius: 50%;
+    justify-items: center;
+}
+.Sect3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.Sect4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 15px;
+}
+span{
+    color: #ed9609;
+}
+.Sect4 button{
+    background-color: #F6A21A;
+    padding: 8px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 3px rgba(255,134,50,0.42);
+}
+
+/* -----Champ 3 CSS----- */
+
+.Champ3{
+    padding: 50px;
+    text-align: center;
+    background-color: #1A223F;
+}
+.Champ3 h2{
+    margin-bottom: 30px;
+    color: white;
+}
+.Cont1{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.Sect5{
+    text-align: center;
+    color: white;
+    background-color: #2B3049;
+    padding: 20px;
+    width: 450px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.Sect5:hover{
+    border: #ed9609 solid 2px;
+      transform: translateY(-5px);
+}
+
+.Sect5 i{
+    font-size: 3rem;
+    color: #F6A21A;
+}
+.Sect5 h3{
+    margin-top: 0;
+}
+.Sect5 button{
+    background-color: #F6A21A;
+    padding: 8px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 3px rgba(255,134,50,0.42);
+    margin-top: 10px;
+}
+
+/* -----Champ 4 CSS----- */
+
+.Champ4{
+    padding: 50px;
+    text-align: center;
+    background-color: #2B3049;
+    color: white;
+}
+.Champ4 h2{
+    margin: 0;
+    margin-bottom: 30px;
+}
+.Cont2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Sect6{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.Sect6 article{
+    width: 430px;
+    height: 230px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.Sect6 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+.Design section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(80, 75, 68);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.Design{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.Design h2{
+    margin: 0;
+}
+.Design:hover{
+    opacity: 1;
+     background: linear-gradient(177deg,rgba(255, 255, 255, 0.31) 32%, rgba(246, 162, 26, 0.93) 100%);
+    transform: translateY(-10px); /* s’élève vers le haut */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+
+/* -----Champ 5 CSS----- */
+.Champ5{
+    padding: 50px;
+    justify-items: center;
+    text-align: center;
+    color: white;
+    background-color: #1A223F;
+}
+.Champ5 h2{
+    margin: 0;
+    margin-bottom: 30px;
+}
+.Cont3{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.Carte{
+    width: 50%;
+    border-radius: 15px;
+    border: solid rgb(6, 6, 6);
+}
+iframe{
+    width: 100%;
+    height: 400px;
+    border-radius: 15px;
+}
+.Sect7{
+    width: 50%;
+}
+.Sousect7{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+form{
+    height: 400px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+}
+.Sousect7 input{
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #2B3049;
+    border: none;
+    color: white;
+    outline-color: #ed9609;
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    background-color: #2B3049;
+    border: none;
+    color: white;
+    padding: 0;
+    outline-color: #ed9609;
+}
+.Sousect7_bouton input{
+    background-color: #F6A21A;
+    padding: 8px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 3px rgba(255,134,50,0.42);
+}
+
+/* ______Footer Css______ */
+
+footer{
+    padding-inline: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2B3049;
+    color: white;
+}
+footer i{
+    font-size: 25px;
+    color:  #F6A21A;
+}
+
+/* -------Media Query------- */
+
+@media (max-width: 768px) {
+    .Burger {
+        display: block;
+    }
+    nav a{
+    display: none;
+    }
+    header{
+        padding-inline: 20px;
+    }
+    .Champ1{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 40px;
+    }
+    .Champ2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .Cont1, .Cont2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Champ3{
+        align-items: center;
+        padding: 0;
+    }
+    .Champ4, .Champ5{
+        padding: 40px;
+    }
+    .Cont3{
+        gap: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .Sect6{
+        display: flex;
+        flex-direction: column;
+    }
+    .Sect7{
+        align-items: center;
+    }
+    .Carte, .Sect7{
+        width: 100%;
+        height: 250px;
+    }
+    .Sousect7{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Sousect7 input{
+        padding: 0px;
+    }
+
+     iframe{
+    height: 250px;
+   }
+     textarea{
+    height: 100px;
+   }
+     form{
+    height: 200px;
+    gap: 15px;
+    }
+    footer{
+       flex-direction: column-reverse;
+       padding-top: 20px;
+    }
+    .Sect1, .Sect4{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* ______Ecran Mobile_______ */
+
+@media (max-width: 425px) {
+    
+    .Champ1, .Champ2, .Champ4, .Champ5{
+        padding: 10px;
+         padding-bottom: 40px;
+    }
+
+    .Icone a{
+    font-size: 1rem;
+    }
+    .Icone div{
+    height: 25px;
+    width: 25px;
+    }
+
+    .Sect1 button, .Sect4 button, .Sect5 button{
+        padding: 5px;
+        width: 120px;
+    }
+
+    section.Sect5{
+    width: 350px;
+    padding: 10px;
+    }
+    
+    .Sect5 i{
+    font-size: 2rem;
+    }
+    .Sect2_moi, .Sect3 article{
+    width: 220px;
+    height:220px;
+    }
+    
+    .Sect6 article{
+    width: 350px;
+    height: 230px;
+    }
+      
+    .Carte{
+        width: 100%;
+        height: 250px;
+    }
+
+    .Sect7{
+        width: 100%;
+        height: 200px;
+    }
+
+    .Sousect7_bouton input{
+        padding: 5px;
+        width: 120px;
+    }
+
+    .Cont3{
+        width: 80%;
+    }
+
+    textarea{
+    height: 90px;
+   }
+    form{
+    height: 160px;
+    gap: 10px;
+    }
+
+    footer p{
+       font-size: 13px;
+    }
+}
+
+
+@media (max-width:375px) {
+    section.Sect5{
+    width: 250px;
+    padding: 10px;
+    }
+    .Sect6 article{
+    width: 270px;
+    height: 200px;
+    }
+    footer p{
+        text-align: center;
+    }
+}
