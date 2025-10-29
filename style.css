@@ -372,9 +372,18 @@ footer{
     background-color: #2B3049;
     color: white;
 }
+.Chevron{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #ed9609;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 footer i{
     font-size: 25px;
-    color:  #F6A21A;
 }
 
 /* -------Media Query------- */
